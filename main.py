@@ -16,7 +16,6 @@ class Protostar(stars):
     super().__init__(name,brightness,age_million_years,obs_time,obs_date,stage="protostar")
     print("The collapsed dust and gas in space has started to heat up!")
 
-
 class Main_sequence(stars):
   def __init__(self,name,brightness,age_million_years,obs_time,obs_date):
     super().__init__(name,brightness,age_million_years,obs_time,obs_date,stage="main_sequence")
@@ -26,6 +25,7 @@ class Red_giant(stars):
   def __init__(self,name,brightness,age_million_years,obs_time,obs_date):
     super().__init__(name,brightness,age_million_years,obs_time,obs_date,stage="red_giant")
     print("The star is red huge and is running out of hydrogen ")
+
 
 #method 1 to add a star to the log
 def update_starlist():
@@ -95,7 +95,6 @@ def search():
           return
       print("The star is not found.")
 
-
 #method 4 to simulate the lifecycle of a star
 def simulate_lifecycle():
     view()
@@ -138,6 +137,7 @@ def delete_star():
             print(f"-----Star {star.name.title()} deleted-----")
             return
           print("The star is not found. ")
+
 
 #main
 def menu():
