@@ -1,6 +1,5 @@
 # STELLAR OBSERVATION LOG & LIFECYCLE SIMULATOR
-<p>This console based program is designed to log in the observed stars with dates and times .</p>
-<p>The lifecycle simulator advances the star to its next stage in evolution.</p>
+<p>This is a console-based program that allows users to log observed stars with their dates and times. It also includes a lifecycle simulator, which advances each star to its next stage in stellar evolution, helping users track the evolution of stars over time.</p>
 
 ## Features
 - Add  a star to the log
