@@ -1,6 +1,6 @@
 #database list
 stars_list=[]
-#parent class
+
 class stars:
   def __init__(self,name,brightness,age_million_years,obs_time,obs_date,stage):
     self.name=name
@@ -10,25 +10,24 @@ class stars:
     self.obs_date=obs_date
     self.stage=stage
 
-#child class 1
+
 class Protostar(stars):
   def __init__(self,name,brightness,age_million_years,obs_time,obs_date):
     super().__init__(name,brightness,age_million_years,obs_time,obs_date,stage="protostar")
     print("The collapsed dust and gas in space has started to heat up!")
 
-#child class 2
+
 class Main_sequence(stars):
   def __init__(self,name,brightness,age_million_years,obs_time,obs_date):
     super().__init__(name,brightness,age_million_years,obs_time,obs_date,stage="main_sequence")
     print("The star is fully formed!")
 
-#child class 3
 class Red_giant(stars):
   def __init__(self,name,brightness,age_million_years,obs_time,obs_date):
     super().__init__(name,brightness,age_million_years,obs_time,obs_date,stage="red_giant")
     print("The star is red huge and is running out of hydrogen ")
 
-#method 1 to add stars to the log
+#method 1 to add a star to the log
 def update_starlist():
     print("\n-----Add new star-----")
     name=input("Enter the name of the star: ")
@@ -70,16 +69,16 @@ def view():
     else:
       print("-----No stars found-----")
       # if no stars are found the user can add the star data without returning
-      # to menu
+      # to the menu
       update_starlist()
 
-#method 3 to search for the star
+#method 3 to search for a star
 def search():
 
     if len(stars_list)==0:
       print("-----No stars found-----")
       # if no stars are found the user can add the star data without returning
-      # to menu
+      # to the menu
       update_starlist()
 
     else:
@@ -97,7 +96,7 @@ def search():
       print("The star is not found.")
 
 
-#method 4 to simulate the lifecycle of the star
+#method 4 to simulate the lifecycle of a star
 def simulate_lifecycle():
     view()
     if len(stars_list)==0:
@@ -125,7 +124,7 @@ def simulate_lifecycle():
               return
           print("The star is not found.")
 
-#method 5 to delete the star data
+#method 5 to delete the data of a star
 def delete_star():
     view()
     if (len(stars_list)==0):
