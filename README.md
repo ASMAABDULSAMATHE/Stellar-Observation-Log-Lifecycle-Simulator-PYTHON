@@ -10,10 +10,11 @@
 - Delete the star data
 
 ## Installation
--Clone the repository:
+- Clone the repository:
 <p>https://github.com/ASMAABDULSAMATHE/Stellar-Observation-Log-Lifecycle-Simulator-PYTHON.git</p>
--cd Stellar-Observation-Log-Lifecycle-Simulator-PYTHON
--Run code: python main.py
+
+- cd Stellar-Observation-Log-Lifecycle-Simulator-PYTHON
+- Run code: python main.py
 
 ## Author 
 <p>Asma Abdul Samathe</p>
