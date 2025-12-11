@@ -13,7 +13,7 @@
 - Clone the repository:
 <p>https://github.com/ASMAABDULSAMATHE/Stellar-Observation-Log-Lifecycle-Simulator-PYTHON.git</p>
 
-- cd Stellar-Observation-Log-Lifecycle-Simulator-PYTHON
+- Change Folder : cd Stellar-Observation-Log-Lifecycle-Simulator-PYTHON
 - Run code: python main.py
 
 ## Author 
