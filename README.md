@@ -11,7 +11,7 @@
 
 ## Installation
 <p>Clone the repository:</p>
-<p>https://github.com/ASMAABDULSAMATHE/Python_Projects.git</p>
+<p>https://github.com/ASMAABDULSAMATHE/Stellar-Observation-Log-Lifecycle-Simulator-PYTHON.git</p>
 
 ## Author 
 <p>Asma Abdul Samathe</p>
